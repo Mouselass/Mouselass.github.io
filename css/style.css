@@ -67,3 +67,14 @@ footer {
 footer img {
 	width: 25px;
 }
+
+#header {
+	width: 100%;
+	font-size: 25px;
+	border-bottom: 1px solid #FFF09E;
+}
+
+.nav-link {
+	color: #000;
+	text-decoration: none;
+}
