@@ -1,0 +1,52 @@
+﻿@{
+    ViewData["Title"] = "Ремонт компьютеров";
+}
+
+<div class="container">
+    <h2 class="">Популярные услуги</h2>
+    <div class="row">
+        <div class="card text-center" style="width: 29rem;">
+            <img src="~/img/services/cleaning.jpg" class="card-img-top" alt="Чистка компьютеров и ноутбуков">
+            <div class="card-body">
+                <h5 class="card-title">Чистка компьютеров и ноутбуков</h5>
+                <p class="card-text">Быстрая и качественная чистка ваших компьютеров и ноутбуков.</p>
+                <form action="">
+                    <a asp-controller="Application" asp-action="Index" class="btn btn-primary">Заказать услугу</a>
+                </form>
+            </div>
+        </div>
+        <div class="card text-center" style="width: 29rem;">
+            <img src="~/img/services/software-installing.jpg" class="card-img-top" alt="Установка программного обеспечения">
+            <div class="card-body">
+                <h5 class="card-title">Установка программного обеспечения</h5>
+                <p class="card-text">Установка лицензионного ПО.</p>
+                <form action="">
+                    <a asp-controller="Application" asp-action="Index" class="btn btn-primary">Заказать услугу</a>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="card text-center" style="width: 29rem;">
+            <img src="~/img/services/diagnostics.jpg" class="card-img-top" alt="Диагностика">
+            <div class="card-body">
+                <h5 class="card-title">Диагностика</h5>
+                <p class="card-text">Диагностика и выявление проблем в компьютере или ноутбуке.</p>
+                <form action="">
+                    <a asp-controller="Application" asp-action="Index" class="btn btn-primary">Заказать услугу</a>
+                </form>
+            </div>
+        </div>
+        <div class="card text-center" style="width: 29rem;">
+            <img src="~/img/services/windows-installing.jpg" class="card-img-top" id="windows-installing" alt="Переустановка и настройка Windows">
+            <div class="card-body">
+                <h5 class="card-title">Переустановка и настройка Windows</h5>
+                <p class="card-text">Установка  и настройка лицензионного Windows.</p>
+                <form action="">
+                    <a asp-controller="Application" asp-action="Index" class="btn btn-primary">Заказать услугу</a>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>

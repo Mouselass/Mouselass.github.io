@@ -1,0 +1,81 @@
+.icon {
+	width: 125px;
+	margin-left: 10px;	
+	border-radius: 40px;
+}
+
+header {
+	background-color: #FFF09E;
+}
+
+.nav-item {
+	text-align: center;
+	line-height: 0.8;
+	font-size: 25px;	
+}
+
+#brand {
+	text-align: justify;
+}
+
+h2 {
+	padding-top: 15px;
+	padding-bottom: 10px;
+}
+
+main {
+	min-height: calc(100vh - 190px);
+}
+
+main .btn {
+	color: #000;
+	background-color: #00FF19;
+	text-align: center;
+}
+
+.card {
+	margin-right: 13.5%;
+	margin-bottom: 10%;
+	border-style: black solid 2px;
+}
+
+#windows-installing {
+	align-self: center;
+	width: 250px;
+}
+
+.form-label {
+	margin-top: 2.5%;
+}
+
+.form-select {
+	margin-top: 3%;
+}
+
+#application-btn {
+	margin-top: 1%;
+}
+
+footer {
+	padding-top: 25px;
+	padding-bottom: 25px;
+	border-top:black solid 2px;
+	text-align: justify;
+	font-size: 18px;
+}
+
+footer img {
+	width: 25px;
+}
+
+#header {
+	width: 100%;
+	font-size: 25px;
+	border-bottom: 1px solid #FFF09E;
+	border-top: 1px solid #FFF09E;
+}
+
+.nav-link {
+	color: #000;
+	text-decoration: none;
+}

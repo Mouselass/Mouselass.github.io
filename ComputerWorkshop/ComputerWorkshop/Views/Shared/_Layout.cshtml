@@ -1,0 +1,55 @@
+﻿<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - Компьютерная мастерская</title>
+    <link rel="stylesheet" href="~/css/bootstrap.css" />
+    <link rel="stylesheet" href="~/css/style.css" />
+    <link rel="icon" href="~/img/icon.jpg" type="image/jpg">
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div>
+                <img class="icon" src="~/img/icon.jpg">
+            </div>
+            <div class="container-fluid">
+                <div class="collapse navbar-collapse">
+                    <table class="table" id="header">
+                        <tbody>
+                            <tr>
+                                <td scope="col"><a class="nav-link active" id="brand" asp-controller="Home" asp-action="Index">Ремонт компьютеров</a></td>
+                                <td scope="col"><a class="nav-link active" aria-current="page" asp-controller="Service" asp-action="Index">Услуги</a></td>
+                                <td scope="col"><a class="nav-link active" aria-current="page" asp-controller="Application" asp-action="Index">Оставить заявку</a></td>
+                                <td scope="col"><a class="nav-link active" aria-current="page" asp-controller="Home" asp-action="Index">Отзывы</a></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div class="container">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+
+    <footer class="border-top footer text-muted">
+        <div class="text-footer offset-1">
+            <span>Контактная информация</span>
+            <span class="offset-2">Телефон: +79999999999</span>
+            <span class="offset-2">Социальные сети:</span>
+            <img src="~/img/footer/odnoklassniki.jpg">
+            <img src="~/img/footer/facebook.jpg">
+            <img src="~/img/footer/vk.jpg">
+        </div>
+    </footer>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @RenderSection("Scripts", required: false)
+</body>
+</html>

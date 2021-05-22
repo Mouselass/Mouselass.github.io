@@ -1,0 +1,30 @@
+﻿@{
+    ViewData["Title"] = "Оставить заявку";
+}
+
+<div class="container">
+
+    <form method="post">
+        <div class="mb-3">
+            <label for="contactInput" class="form-label">Введите контактную информацию, номер телефона или почту</label>
+            <input type="text" class="form-control" id="contactInput" name="contactInput" placeholder="Введите данные">
+        </div>
+
+
+        <select class="form-select" name="problemSelect">
+            <option value="" disabled selected hidden>Выберите свою проблему</option>
+            <option value="1">Сломался ноутбук</option>
+            <option value="2">Сломался компьютер</option>
+            <option value="3">Нужна чистка</option>
+            <option value="4">Проблема с Windows</option>
+            <option value="5">Нужно установить программы</option>
+        </select>
+
+        <div class="mb-3">
+            <label for="problemInput" class="form-label">Более подробно опишите свою проблему</label>
+            <input type="text" class="form-control" id="problemInput" name="problemInput">
+        </div>
+
+        <button type="submit" class="btn btn-primary" id="application-btn">Оставить заявку</button>
+    </form>
+</div>
